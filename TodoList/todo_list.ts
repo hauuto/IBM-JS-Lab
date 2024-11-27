@@ -1,15 +1,9 @@
 const taskInput = document.getElementById('taskInput') as HTMLInputElement;
-
-
 const addTaskBtn = document.getElementById('addTaskbtn') as HTMLInputElement;
-
-
 const taskList = document.getElementById("taskList") as HTMLInputElement;
-
 const clearCompletedBtn = document.getElementById("clearCompletedBtn") as HTMLInputElement;
 
 let tasks : any[] = [];
-
 
 
 function addTask():void{
