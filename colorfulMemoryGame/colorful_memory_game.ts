@@ -70,7 +70,7 @@ function checkMatch(){
 }
 
 function startGame(){
-    let timeLeft = 30;
+    let timeLeft = 60;
     startbtn.disabled = true;
     score = 0;
     scoreEle.textContent = `Score: ${score}`;
