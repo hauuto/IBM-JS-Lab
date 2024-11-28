@@ -1,2 +1,12 @@
 #idea
 .idea/
+
+# Compiled source #
+/node_modules
+
+package-lock.json
+package.json
+
+node_modules/.env
+config.ts
+config.js
